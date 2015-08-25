@@ -1,0 +1,172 @@
+body {
+    margin: 0 6%;
+    font-family: Georgia;
+    color: #444;
+}
+
+.container-inner {
+    padding: 10px 40px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    border: solid #666;
+    border-width: 8px 0 2px 0;
+}
+
+.dramatic-caps {
+     font-family: Georgia;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-size: 344%
+}
+
+.section {
+    border-bottom: 1px solid #ccc;
+    padding: 6px;
+}
+.section:hover {
+
+}
+
+p:hover {
+    color: #000;
+}
+
+p.justifyme {
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+
+#header-section {
+    padding-bottom: 1em;
+}
+
+.section-title {
+    font-style: italic;
+}
+
+.section-title:hover {
+    //text-shadow: 0px 5px 5px #e1e1e8;
+}
+
+.section-title h1,h2,h3,h4,h5,h6 {
+    display: inline;
+}
+
+.section-title img {
+    opacity:0.3;
+    filter:alpha(opacity=30); /* <=IE8 */
+}
+.section-title img:hover
+{
+    opacity:1.0;
+    filter:alpha(opacity=100); /* <=IE8 */
+}
+
+#skill-detail-toggle-button-div {
+    float: right;
+    opacity:0.6;
+    filter:alpha(opacity=60); /* <=IE8 */
+}
+
+#hide_skill_details {
+    display:none;
+}
+
+.skill-details {
+    //position: absolute;
+    //float: right;
+    font-size: 75%;
+    opacity:0.6;
+    filter:alpha(opacity=60); /* <=IE8 */
+    text-align: right;
+    display:none;
+}
+.skill-details ul {
+  padding: 0;
+  margin: 0;
+}
+.skill-details li {
+  line-height: 9px;
+}
+
+.middle-valign {
+    vertical-align: middle;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.subsection {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.subsection h4.float-right {
+    text-align: right;
+}
+
+.first {
+    border-top: none;
+}
+
+.last {
+    border: none;
+}
+
+.footer {
+    padding: 1em 0;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.footer + .row-fluid{
+    width: 50%;
+}
+
+.footer p {
+    margin-bottom: 0;
+    font-size: 112%;
+    text-align: center;
+}
+.footer p.small {
+    margin-bottom: 0;
+    font-size: 80%;
+    text-align: center;
+}
+.footer img {
+    opacity:0.3;
+    padding: 5px;
+    filter:alpha(opacity=30); /* <=IE8 */
+}
+.footer img:hover
+{
+    opacity:1.0;
+    filter:alpha(opacity=100); /* <=IE8 */
+}
+
+.page-break {
+    display:none;
+}
+
+.faint {
+    opacity:0.3;
+    filter:alpha(opacity=30); /* <=IE8 */
+}
+
+.linked-sites img {
+    width: 18px;
+    height: 18px;
+    text-align: bottom;
+    border: 0;
+}
+
+.linked-sites a {
+    text-decoration: none;
+}

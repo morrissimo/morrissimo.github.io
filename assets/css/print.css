@@ -1,0 +1,81 @@
+@import "bootstrap.css";
+@import "bootstrap.custom.css";
+
+body { 
+    margin: 0 2%;
+    padding 1%;
+    font-family: Georgia; 
+    color: #000; 
+}
+
+.container-inner { 
+    padding: 6px 20px; 
+    margin: 0 auto;  
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+ 
+.dramatic-caps {
+     font-family: Georgia;
+     text-transform: uppercase; 
+     letter-spacing: 2px;
+     font-size: 200%
+}
+
+.section {
+    border-bottom: 1px solid #ccc;
+    padding: 6px;
+}
+
+#header-section { 
+    padding-bottom: 1em; 
+}
+
+#skill-detail-toggle-button-div {
+    display: none;   
+}
+
+.section-title { 
+    font-style: italic;
+}
+
+img { 
+    display: none;
+}
+
+.middle-valign { 
+    vertical-align: middle; 
+}
+ 
+.right-align {
+    text-align: right;
+    margin-right: 1em;
+}
+
+.subsection {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.subsection h4.float-right {
+    text-align: right;
+}
+
+.first {
+    border-top: none;
+}
+
+.last {
+    border: none;
+}
+
+.footer { 
+    display: none;
+}
+
+.page-break { 
+    display:block; 
+    page-break-before:always; 
+}
