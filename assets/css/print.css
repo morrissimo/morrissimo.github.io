@@ -27,6 +27,7 @@ body {
 .section {
     border-bottom: 1px solid #ccc;
     padding: 6px;
+    break-inside: avoid-page;
 }
 
 #header-section { 
@@ -57,6 +58,7 @@ img {
 .subsection {
     position: relative;
     border-bottom: 1px solid #ccc;
+    break-inside: avoid-page;
 }
 
 .subsection h4.float-right {
@@ -76,6 +78,11 @@ img {
 }
 
 .page-break { 
-    display:block; 
-    page-break-before:always; 
+    /*display:block; */
+    break-before: page; 
+}
+
+table {
+    break-inside: avoid-page;
+    break-before: page;
 }
